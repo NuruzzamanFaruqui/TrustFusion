@@ -1,0 +1,7 @@
+paths:
+  model_dir: "../api-server/models"
+  shap_dir: "../api-server/shap_outputs"
+  log_file: "../logs/trust_decisions.jsonl"
+  rl_data: "../LightGBM-RL/rl-generated-data.csv"
+  preprocessed_data: "../preprocessed/preprocessed-dataset.csv"
+  mixed_model_output: "../LightGBM-Mixed/lightgbm_mixed_model.txt"

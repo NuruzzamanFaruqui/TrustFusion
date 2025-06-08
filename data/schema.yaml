@@ -1,0 +1,16 @@
+features:
+  usage_frequency: float
+  peer_rating: float
+  violation_count: int
+  complaint_count: int
+  account_age_days: int
+  total_interactions: int
+  admin_flag: int
+  location: string
+  term: string
+  hour_sin: float
+  hour_cos: float
+  day_sin: float
+  day_cos: float
+label:
+  user_trust_tier: int

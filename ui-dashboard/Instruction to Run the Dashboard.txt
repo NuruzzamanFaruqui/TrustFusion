@@ -1,0 +1,3 @@
+cd ui-dashboard
+pip install streamlit requests pandas numpy
+streamlit run app.py

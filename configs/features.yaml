@@ -1,0 +1,18 @@
+feature_groups:
+  behavioral:
+    - usage_frequency
+    - peer_rating
+    - violation_count
+    - complaint_count
+  contextual:
+    - location
+    - term
+    - hour_sin
+    - hour_cos
+    - day_sin
+    - day_cos
+  profile_priors:
+    - account_age_days
+    - total_interactions
+    - admin_flag
+  others: []  # Automatically inferred

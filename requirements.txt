@@ -1,0 +1,8 @@
+flask
+lightgbm
+shap
+streamlit
+pandas
+numpy
+scikit-learn
+requests

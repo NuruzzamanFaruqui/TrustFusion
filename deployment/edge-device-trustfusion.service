@@ -1,0 +1,16 @@
+[Unit]
+Description=TrustFusion Edge Device Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/TrustFusion/edge-device/main.py
+WorkingDirectory=/home/pi/TrustFusion/edge-device
+Restart=always
+RestartSec=5
+StandardOutput=append:/var/log/trustfusion-edge.log
+StandardError=append:/var/log/trustfusion-edge-error.log
+User=pi
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

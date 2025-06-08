@@ -1,0 +1,10 @@
+models:
+  - id: "model_20240601-101010"
+    path: "models/model_20240601-101010/lightgbm_retrained.txt"
+    hash: "91e9d092b1fe23fc"
+    trained_on: "2024-06-01T10:10:10Z"
+
+  - id: "model_20240607-123456"
+    path: "models/model_20240607-123456/lightgbm_retrained.txt"
+    hash: "720d9a1cbf26c526"
+    trained_on: "2024-06-07T12:34:56Z"

@@ -1,0 +1,2 @@
+{"timestamp": "2025-06-08T14:55:27.489188", "user_id": "user_0", "original_tier": 1, "evaded_tier": 3, "spoofed_fields": ["peer_rating", "violation_count"], "detection_confidence": 0.83}
+{"timestamp": "2025-06-08T14:55:27.489201", "user_id": "user_1", "original_tier": 1, "evaded_tier": 3, "spoofed_fields": ["peer_rating", "violation_count"], "detection_confidence": 0.82}
